@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keerthana Mahesh | Cybersecurity Portfolio</title>
+<style>
+  :root {
+    --bg: #0b0f14;
+    --bg-alt: #121924;
+    --text: #e6edf3;
+    --muted: #8b98a5;
+    --accent: #4dd6b3;
+    --border: #22303c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  header {
+    padding: 4rem 1.5rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  header h1 {
+    font-size: 2.25rem;
+    margin-bottom: 0.5rem;
+  }
+  header p.tagline {
+    color: var(--accent);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  header p.bio {
+    color: var(--muted);
+    max-width: 600px;
+  }
+  nav {
+    margin-top: 1.5rem;
+  }
+  nav a {
+    color: var(--text);
+    text-decoration: none;
+    margin-right: 1.5rem;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 2px;
+    font-size: 0.95rem;
+  }
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem;
+    border-top: 1px solid var(--border);
+  }
+  section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+  .project {
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .project h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.4rem;
+  }
+  .project p {
+    color: var(--muted);
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+  }
+  .tags span {
+    display: inline-block;
+    background: rgba(77, 214, 179, 0.12);
+    color: var(--accent);
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+  }
+  .project a {
+    color: var(--accent);
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  .placeholder {
+    color: var(--muted);
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+  footer {
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  footer a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Keerthana Mahesh</h1>
+  <p class="tagline">Computer Science Student</p>
+  <p class="bio">
+    Computer Science student at Wilfrid Laurier University. Google Cybersecurity Professional
+    Certificate and Google AI Essentials certified. Building hands-on projects in detection
+    engineering, vulnerability assessment, and security analysis.
+  </p>
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>Home SOC / Detection Lab</h3>
+    <p class="placeholder">In progress. Mini SOC built with Wazuh, attacks simulated with Atomic Red Team, detection rules mapped to MITRE ATT&CK.</p>
+    <div class="tags">
+      <span>SIEM</span><span>Wazuh</span><span>MITRE ATT&CK</span><span>Detection Engineering</span>
+    </div>
+  </div>
+
+  <div class="project">
+    <h3>Vulnerability Assessment & Hardening Report</h3>
+    <p class="placeholder">Coming soon. Scanning and hardening a vulnerable VM network with Nmap, OpenVAS, and CIS Benchmarks.</p>
+    <div class="tags">
+      <span>Nmap</span><span>OpenVAS</span><span>CIS Benchmarks</span>
+    </div>
+  </div>
+
+  <div class="project">
+    <h3>Phishing / Malware Analysis Case Study</h3>
+    <p class="placeholder">Coming soon. Analyzing real phishing samples and malware IOCs, written up as an analyst report.</p>
+    <div class="tags">
+      <span>Threat Analysis</span><span>IOCs</span><span>Incident Response</span>
+    </div>
+  </div>
+
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+
+  <div class="project">
+    <h3>Google Cybersecurity Professional Certificate</h3>
+    <p style="color: var(--muted); font-size: 0.9rem; margin-bottom: 0;">Google &middot; Issued Aug 2026</p>
+  </div>
+
+  <div class="project">
+    <h3>Google AI Essentials Specialization</h3>
+    <p style="color: var(--muted); font-size: 0.9rem; margin-bottom: 0;">Google &middot; Issued Jul 2026</p>
+  </div>
+
+  <div class="project">
+    <h3>Mastercard Cybersecurity Job Simulation</h3>
+    <p style="color: var(--muted); font-size: 0.9rem; margin-bottom: 0;">Forage &middot; Issued Jan 2025</p>
+  </div>
+
+  <div class="project">
+    <h3>TCPS 2: CORE 2022</h3>
+    <p style="color: var(--muted); font-size: 0.9rem; margin-bottom: 0;">National Research Council Canada &middot; Issued Jan 2025</p>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <p style="margin-bottom: 1.5rem;">
+    I'm a Computer Science student at Wilfrid Laurier University with a foundation in Python, C, C++,
+    Java, and HTML/CSS. I'm building hands-on projects covering detection engineering, vulnerability
+    management, and threat analysis in a self-managed home lab.
+  </p>
+
+  <h3 style="font-size: 1.05rem; margin-bottom: 0.75rem; color: var(--text);">Relevant Coursework</h3>
+  <div class="tags" style="margin-bottom: 1.5rem;">
+    <span>Algorithm Design/Analysis I</span>
+    <span>Database I</span>
+    <span>Computer Networks</span>
+    <span>Ethics &amp; Professional Practice</span>
+    <span>Artificial Intelligence</span>
+    <span>Intro to Microprocessors</span>
+    <span>Data Structures I &amp; II</span>
+    <span>Probability &amp; Stats for Sci.</span>
+    <span>Risks and Disasters</span>
+  </div>
+
+  <h3 style="font-size: 1.05rem; margin-bottom: 0.75rem; color: var(--text);">Skills</h3>
+  <div class="tags">
+    <span>Python</span><span>Java</span><span>C</span><span>C++</span><span>SQL</span>
+    <span>Linux</span><span>JavaScript</span><span>HTML/CSS</span>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    <a href="https://www.linkedin.com/in/keerthana-mahesh-576642297" style="color: var(--accent);">LinkedIn</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/keerthana-mahesh732" style="color: var(--accent);">GitHub</a>
+  </p>
+</section>
+
+<footer>
+  Hosted with GitHub Pages.
+</footer>
+
+</body>
+</html>
